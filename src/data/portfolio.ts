@@ -14,7 +14,7 @@ export const profile = {
   /** Fictional studio card shown at the very start of the opening sequence. */
   originalLabel: 'A GANESH SAI ORIGINAL',
   role: 'FOUNDER AND MANAGING DIRECTOR',
-  tagline: [GOLDMAN'S MARSHALL'S GROUP OF COMPANIES],
+  tagline: ["GOLDMAN'S MARSHALL'S GROUP OF COMPANIES"],
   intro:
     'A Bangalore-based civil contractor and entrepreneur with over 7 years of experience leading monumental infrastructure projects. Starting at age 18, I have overseen end-to-end planning, design, and execution across highways, road tunnels, irrigation canals, lift irrigation systems, aqueducts, and thermal and hydro power plants.',
   location: 'Bangalore,Karnataka,India',
@@ -25,7 +25,7 @@ export const profile = {
   },
   resumePdf: '/assets/ganeshsai.pdf',
   portrait: {
-    src: '/assets/portrait-720.webp',
+    src: 'public/assets/sai ganesh.HEIC',
     srcSet: '/assets/portrait-420.webp 420w, /assets/portrait-720.webp 720w, /assets/portrait-1100.webp 1100w',
     alt: 'Portrait of Sushmita Dasari',
   },
