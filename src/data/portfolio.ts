@@ -29,7 +29,7 @@ export const profile = {
     srcSet: 'public/assets/sai ganesh.png',
     alt: 'Portrait of Sai Ganesh',
   },
-  interests: ['System Design', 'Cloud Computing (AWS)', 'Machine Learning'],
+  interests: ['Infrastructure', 'Construction', 'Real Estate'],
 };
 
 export const education = [
