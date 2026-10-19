@@ -58,7 +58,7 @@ src/
   data/portfolio.ts        ← single source of truth (from the resume)
   App.tsx                  ← stages: opening → profile select → home; overlays
   components/
-    OpeningSequence        ← black → studio card → SUSHMITA → THE SERIES → portrait → ▶ PLAY
+    OpeningSequence        ← black → studio card → GURLEEN → THE SERIES → portrait → ▶ PLAY
     ProfileSelector        ← "Who's watching?" (changes section order only)
     Navbar                 ← hide-on-scroll nav, profile switcher, mobile menu
     Hero                   ← billboard: parallax portrait, particles, light streaks, floating chips
