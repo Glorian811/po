@@ -759,7 +759,7 @@ export const viewerProfiles: {
   order: SectionId[];
 }[] = [
   {
-    id: 'Gurleen',
+    id: 'gurleen',
     name: 'Gurleen',
     blurb: 'The full series, in order',
     color: '#e5132b',
