@@ -7,58 +7,76 @@
 export type Palette = { from: string; via: string; to: string; accent: string };
 
 export const profile = {
-  fullName: 'Dasari Venkata Ratna Sri Sushmita',
-  displayName: 'Sushmita Dasari',
-  firstName: 'SUSHMITA',
+  fullName: 'Gurleen Kaur Bhatia',
+  displayName: 'Gurleen Kaur Bhatia',
+  firstName: 'GURLEEN',
   seriesTag: 'THE SERIES',
   /** Fictional studio card shown at the very start of the opening sequence. */
-  originalLabel: 'A DASARI ORIGINAL',
-  role: 'Full-Stack Developer',
-  tagline: ['Full-Stack Developer', 'AI / ML', 'Java'],
-  intro:
-    'A B.Tech Artificial Intelligence & Machine Learning student (CGPA 9.10) and full-stack developer building AI-powered platforms, payment systems and multi-tenant SaaS with Java, Python, React, Node.js and Docker.',
-  location: 'Surampalem, Andhra Pradesh',
-  email: 'sushmitadasari17@gmail.com',
-  links: {
-    linkedin: 'https://www.linkedin.com/in/sushmita-dasari-227a40284/',
-    github: 'https://github.com/Sushmitadasari',
-  },
-  resumePdf: '/assets/Sushmita_Dasari_Resume.pdf',
-  portrait: {
-    src: '/assets/portrait-720.webp',
-    srcSet: '/assets/portrait-420.webp 420w, /assets/portrait-720.webp 720w, /assets/portrait-1100.webp 1100w',
-    alt: 'Portrait of Sushmita Dasari',
-  },
-  interests: ['System Design', 'Cloud Computing (AWS)', 'Machine Learning'],
+  originalLabel: 'A BHATIA ORIGINAL',
+  role: 'AI/ML Engineer',
+tagline: ['AI / ML', 'Generative AI', 'Software Engineering'],
+intro:
+  'A B.Tech Computer Science & Engineering student at NIT Agartala (CGPA 9.28/10) focused on AI/ML, Large Language Models (LLMs), Retrieval-Augmented Generation (RAG) and optimization algorithms. Building multi-agent AI systems, offline predictive copilots and quantum-inspired routing solutions using Python, Java, TensorFlow, PyTorch, React and Next.js.',
+location: 'Rajpura, Punjab, India',
+email: 'khushibhatia5555@gmail.com',
+links: {
+  linkedin: 'https://linkedin.com/in/gurleen-kaur-bhatia-907b23293',
+  github: 'https://github.com/gurleen55555',
+  leetcode: 'https://leetcode.com/u/G8ThpK5j53',
+},
+resumePdf: '/assets/Gurleen_Kaur_Bhatia_Resume_ATS.pdf',
+portrait: {
+  src: '/assets/portrait-720.webp',
+  srcSet: '/assets/portrait-420.webp 420w, /assets/portrait-720.webp 720w, /assets/portrait-1100.webp 1100w',
+  alt: 'Portrait of Gurleen Kaur Bhatia',
+},
+interests: ['Artificial Intelligence', 'Generative AI', 'Large Language Models', 'RAG', 'Optimization Algorithms'],
 };
 
 export const education = [
   {
-    school: 'Aditya Engineering College',
-    place: 'Surampalem',
-    degree: 'Bachelor of Technology — Artificial Intelligence and Machine Learning',
-    period: 'October 2023 – Present',
-    score: 'CGPA 9.10',
+    school: 'National Institute of Technology, Agartala',
+    place: 'Agartala, Tripura',
+    degree: 'Bachelor of Technology — Computer Science and Engineering',
+    period: '2025 – 2029',
+    score: 'CGPA 9.28/10',
   },
   {
-    school: 'Sri Chaitanya Junior College',
-    place: 'Kakinada',
-    degree: 'BIEAP — MPC',
-    period: 'June 2021 – May 2023',
-    score: 'Score 925/1000',
+    school: 'C.M. Public School',
+    place: 'India',
+    degree: 'Higher Secondary Education',
+    period: 'Completed before 2025',
+    score: '95%',
+  },
+  {
+    school: 'Holy Angels School',
+    place: 'India',
+    degree: 'Secondary Education',
+    period: 'Completed before 2023',
+    score: '97%',
   },
 ];
 
+
 export const experience = [
   {
-    company: 'Technical Hub Pvt Ltd',
-    role: 'Trainee',
-    place: 'Surampalem, AP',
-    period: 'May 2025 – June 2026',
+    company: 'Google',
+    role: 'Google Student Ambassador',
+    place: 'India',
+    period: 'May 2026 – Present',
     points: [
-      'Completed one year of intensive Full-Stack Development (FSD) training covering frontend, backend, database integration, and deployment workflows.',
-      'Developed responsive and functional web applications by implementing user interfaces, server-side logic, and database connectivity.',
-      'Deployed and managed web applications while applying version control, debugging, and end-to-end development practices.',
+      'Reached 200+ participants through approximately five campaigns and sessions on AI, technical skills and Gemini; created 6–7 social media posts.',
+      'Supported approximately 50–60 girls with technical guidance, AI awareness and community engagement.',
+    ],
+  },
+  {
+    company: 'Levitate Labs',
+    role: 'Technical Operations Assistant',
+    place: 'Remote',
+    period: 'May 2026 – Present',
+    points: [
+      'Supported CRM, automation, database, API and backend workflows, along with sales-supporting technical systems.',
+      'Contributed to an estimated 40% improvement in sales efficiency through lead handling, reporting and workflow optimization.',
     ],
   },
 ];
@@ -83,92 +101,118 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: 'policyguard-ai',
-    title: 'PolicyGuard AI',
+    id: 'quantum-traffic-optimization',
+    title: 'Quantum-Inspired Traffic Optimization',
     year: '2026',
-    genre: 'AI • NLP • LLM',
-    logline: 'An AI-powered policy analysis platform across web, browser extension, mobile and desktop applications.',
-    stack: ['Python', 'NLP', 'LLM', 'REST API'],
+    genre: 'AI • Optimization • Smart Mobility',
+    logline:
+      'A quantum-inspired multi-vehicle routing engine designed to optimize travel across complex urban road networks.',
+    stack: ['Python', 'NumPy', 'QPSO', 'NetworkX', 'OSMnx'],
     build: [
-      'Built an AI-powered policy analysis platform across web, browser extension, mobile, and desktop applications, processing 500+ policy documents with 92% accuracy and reducing manual review time by 60% across 8 policy categories.',
-      'Engineered LLM-based Q&A, key-information extraction, and REST API integration for 10+ document types, enabling real-time policy insights and reducing decision turnaround time by 45%.',
+      'Developing a Quantum Particle Swarm Optimization (QPSO) routing engine on urban road graphs containing 600+ nodes.',
+      'Building a five-vehicle, eight-destination routing solution for logistics scenarios covering normal traffic, rush hour and accidents, optimizing travel time, distance, congestion and emissions.',
+      'Benchmarking QPSO against Dijkstra, A*, Genetic Algorithm and Ant Colony Optimization over 30 runs per algorithm to compare fitness, runtime and convergence.',
     ],
     features: [
-      'LLM-based Q&A over policy documents',
-      'Key-information extraction',
-      'REST API integration for 10+ document types',
-      'Web, browser extension, mobile & desktop apps',
-      'Real-time policy insights',
+      'Quantum Particle Swarm Optimization (QPSO)',
+      '600+ node urban road graphs',
+      'Five vehicles and eight destinations',
+      'Normal, rush-hour and accident scenarios',
+      'Benchmarking against Dijkstra, A*, GA and ACO',
     ],
     metrics: [
-      { value: '500+', label: 'policy documents processed' },
-      { value: '92%', label: 'accuracy' },
-      { value: '60%', label: 'less manual review time' },
-      { value: '45%', label: 'faster decision turnaround' },
-      { value: '8', label: 'policy categories' },
+      { value: '600+', label: 'road graph nodes' },
+      { value: '5', label: 'vehicles in routing scenario' },
+      { value: '8', label: 'destinations' },
+      { value: '30', label: 'runs per algorithm' },
     ],
-    // The resume links to https://github.com/Sushmitadasari/PolicyGuard-AI, which is not public yet (404).
-    // Add `github: 'https://github.com/Sushmitadasari/PolicyGuard-AI',` back once the repo is public.
-    palette: { from: '#2a0610', via: '#7a0f24', to: '#0b0710', accent: '#ff3d5a' },
-    motif: 'shield',
-  },
-  {
-    id: 'payment-gateway',
-    title: 'Payment Gateway System',
-    year: '2026',
-    genre: 'Full-Stack • Fintech • Microservices',
-    logline: 'A full-stack UPI & card payment gateway built around a strict payment state machine.',
-    stack: ['Node.js', 'Express', 'PostgreSQL', 'React', 'Docker'],
-    build: [
-      'Built full-stack UPI & card payment gateway processing 1,000+ transactions at 99.8% uptime with a strict payment state machine (processing → success/failed).',
-      'Dockerized microservice architecture cut deployment setup by 70%; backend optimizations reduced API response time by 40% and tripled throughput under load.',
-    ],
-    features: [
-      'UPI & card payments',
-      'Strict payment state machine (processing → success / failed)',
-      'Dockerized microservice architecture',
-      'Backend optimizations for load',
-    ],
-    metrics: [
-      { value: '1,000+', label: 'transactions processed' },
-      { value: '99.8%', label: 'uptime' },
-      { value: '70%', label: 'less deployment setup' },
-      { value: '40%', label: 'faster API response' },
-      { value: '3×', label: 'throughput under load' },
-    ],
-    github: 'https://github.com/Sushmitadasari/Payment-gateway-system-Project',
-    palette: { from: '#1a0d02', via: '#8a4a07', to: '#0a0806', accent: '#ffb547' },
+    github: 'https://github.com/rudrakshsharma1312-gif/Sih-new-login',
+    palette: {
+      from: '#2a0610',
+      via: '#7a0f24',
+      to: '#0b0710',
+      accent: '#ff3d5a',
+    },
     motif: 'flow',
   },
   {
-    id: 'multi-tenant-saas',
-    title: 'Multi-Tenant SaaS Platform',
+    id: 'zentro-ai',
+    title: 'Zentro AI',
     year: '2026',
-    genre: 'SaaS • Security • DevOps',
-    logline: 'Shared-database multi-tenancy with strict tenant isolation and 4-level JWT/RBAC.',
-    stack: ['Node.js', 'React', 'PostgreSQL', 'Docker Compose'],
+    genre: 'Multi-Agent AI • Full-Stack • Knowledge Graphs',
+    logline:
+      'A multi-agent Business Operating System built for the Microsoft Agents League 2026 Reasoning Agents Track.',
+    stack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Supabase', 'Knowledge Graphs'],
     build: [
-      'Architected shared-database multi-tenancy for 50+ concurrent tenants with strict tenant_id isolation and 4-level JWT/RBAC, achieving zero unauthorized-access incidents across 200+ users.',
-      'Implemented Docker Compose one-command deployment, reducing environment setup time from 45 minutes to under 2 minutes.',
+      'Built an individual multi-agent Business Operating System for Microsoft Agents League 2026 (Reasoning Agents Track).',
+      'Developed five AI agents for reasoning, executive insights, lead intelligence, revenue risk and meeting intelligence, powered by a Company Brain knowledge graph.',
+      'Added citations, confidence scores, explainable reasoning paths and an ontology structure; delivered documentation and a local demo, with build and lint checks passing.',
     ],
     features: [
-      'Shared-database multi-tenancy',
-      'Strict tenant_id isolation',
-      '4-level JWT / RBAC',
-      'One-command Docker Compose deployment',
+      'Five specialized AI agents',
+      'Company Brain knowledge graph',
+      'Executive insights and lead intelligence',
+      'Revenue-risk and meeting intelligence',
+      'Citations, confidence scores and explainable reasoning paths',
     ],
     metrics: [
-      { value: '50+', label: 'concurrent tenants' },
-      { value: '200+', label: 'users' },
-      { value: '0', label: 'unauthorized-access incidents' },
-      { value: '45m → <2m', label: 'environment setup time' },
+      { value: '5', label: 'specialized AI agents' },
+      { value: '2026', label: 'Microsoft Agents League' },
     ],
-    github: 'https://github.com/Sushmitadasari/Multi-Tenant-SaaS-Platform',
-    palette: { from: '#04121f', via: '#0f4c6e', to: '#05080d', accent: '#4cc9ff' },
+    github: 'https://github.com/gurleen55555/zentro-ai-league',
+    palette: {
+      from: '#1a0d02',
+      via: '#8a4a07',
+      to: '#0a0806',
+      accent: '#ffb547',
+    },
     motif: 'tenants',
   },
+  {
+    id: 'astragrid-ai',
+    title: 'AstraGrid AI',
+    year: '2026',
+    genre: 'LLM • RAG • Predictive AI',
+    logline:
+      'An offline predictive copilot for secure, air-gapped environments, combining local LLM inference with telemetry-based failure prediction.',
+    stack: [
+      'Python',
+      'Streamlit',
+      'TensorFlow/Keras',
+      'LSTM',
+      'scikit-learn',
+      'Ollama',
+      'Phi-3 Mini',
+      'RAG',
+    ],
+    build: [
+      'Built an offline predictive copilot with a three-member team for Bharatiya Antariksh Hackathon 2026, designed for secure air-gapped environments.',
+      'Implemented local Phi-3 Mini inference and retrieval-grounded RAG runbook workflows for Issue-Cause-Action recommendations without cloud APIs.',
+      'Trained an LSTM on 2,000 synthetic telemetry records, achieving 85.93% accuracy, 0.85 macro F1 and 0.97 failure recall.',
+    ],
+    features: [
+      'Offline Phi-3 Mini inference',
+      'Retrieval-Augmented Generation (RAG) runbooks',
+      'Issue-Cause-Action recommendations',
+      'LSTM telemetry failure prediction',
+      'Designed for air-gapped environments',
+    ],
+    metrics: [
+      { value: '2,000', label: 'synthetic telemetry records' },
+      { value: '85.93%', label: 'model accuracy' },
+      { value: '0.85', label: 'macro F1' },
+      { value: '0.97', label: 'failure recall' },
+    ],
+    github: 'https://github.com/gurleen55555/AirGappedCopilot',
+    palette: {
+      from: '#04121f',
+      via: '#0f4c6e',
+      to: '#05080d',
+      accent: '#4cc9ff',
+    },
+    motif: 'shield',
+  },
 ];
-
 export type Achievement = {
   id: string;
   title: string;
@@ -180,62 +224,68 @@ export type Achievement = {
 
 export const achievements: Achievement[] = [
   {
-    id: 'algouniversity',
-    title: 'Tech Fellow',
-    org: 'AlgoUniversity',
-    detail: 'Selected through competitive national selection — advanced DSA, algorithm optimization, and competitive coding.',
-    laurel: 'National Selection',
+    id: 'sih-qualifier',
+    title: 'College Internal Round Qualifier',
+    org: 'Smart India Hackathon 2026',
+    detail:
+      'Cleared the college internal selection round with the Quantum-Inspired Traffic Optimization project.',
+    laurel: 'SIH 2026',
   },
   {
-    id: 'flipkart-grid',
-    title: 'Semi-Finalist',
-    org: 'Flipkart GRiD 7.0',
-    detail: 'Competed among top national engineering talent.',
-    laurel: 'Semi-Finalist',
-    link: 'https://drive.google.com/file/d/16pXA2hssyJqlYMr27wfi6U4bjKDLvh9f/view?usp=drive_link',
+    id: 'dsai-club',
+    title: 'Core Member',
+    org: 'DSAI Club, NIT Agartala',
+    detail:
+      'Core member of the institute’s largest technical club; hosted DSAI Orientation 2026.',
+    laurel: 'Leadership',
   },
   {
-    id: 'branch-topper',
-    title: 'AIML Branch Topper',
-    org: 'B.Tech AI & ML',
-    detail: '9.24 SGPA for the semester.',
-    laurel: 'Branch Topper',
+    id: 'nari-udaan',
+    title: 'Technical Team Member',
+    org: 'Nari Udaan',
+    detail:
+      'Supported technical-skills and digital-learning initiatives reaching approximately 100 girls.',
+    laurel: 'Community Impact',
   },
   {
-    id: 'competitive-coding',
-    title: '850+ Problems Solved',
-    org: 'LeetCode • GFG • CodeChef',
-    detail: 'LeetCode: 350+ DSA problems (peak rating 1442). GFG: 300+ problems (rating 1436). CodeChef: 200+ problems.',
-    laurel: 'Competitive Coding',
+    id: 'mun-best-delegate',
+    title: 'Best Delegate',
+    org: 'KACE-IX MUN',
+    detail:
+      'Received Best Delegate recognition at an event with approximately 150 participants.',
+    laurel: 'Best Delegate',
   },
   {
-    id: 'hackerrank',
-    title: '5-Star Badges',
-    org: 'HackerRank',
-    detail: '5-star badges in C, Python, Java, and SQL.',
-    laurel: 'Four Languages',
+    id: 'mun-verbal-mention',
+    title: 'Verbal Mention',
+    org: 'NITA-MUN',
+    detail:
+      'Received a Verbal Mention at an event with approximately 200 delegates.',
+    laurel: 'Verbal Mention',
+  },
+  {
+    id: 'rewriting-the-code',
+    title: 'Member',
+    org: 'Rewriting the Code',
+    detail:
+      'Participates in technical learning, mentorship and women-in-technology programs.',
+    laurel: 'Women in Tech',
   },
 ];
 
 export type Certification = { issuer: string; name: string; link: string };
 
 export const certifications: Certification[] = [
-  { issuer: 'NPTEL', name: 'Database Management System', link: 'https://drive.google.com/file/d/1MqkJHchXeaGD4S8mzPmEGxEYddAsxAjN/view?usp=drive_link' },
-  { issuer: 'NPTEL', name: 'Fundamentals of Artificial Intelligence', link: 'https://drive.google.com/file/d/1GqyUQ-lrE-bHaN457t6fIdssgGG4HMXf/view?usp=drive_link' },
-  { issuer: 'NPTEL', name: 'Deep Learning', link: 'https://drive.google.com/file/d/1PWSRP5SQDPzkoTCF3A24eIJoSpTwgsff/view?usp=sharing' },
-  { issuer: 'AWS', name: 'AWS Certified AI Practitioner', link: 'https://drive.google.com/file/d/1h8e5p0a9T6f5gBaOP2ROfwWHZfkkspGn/view?usp=drive_link' },
-  { issuer: 'AWS', name: 'AWS Academy Graduate – Cloud Foundations', link: 'https://www.credly.com/badges/2d4810f9-3dbe-444d-99b9-61312ea5e7df/public_url' },
-  { issuer: 'MongoDB', name: 'MongoDB Certified Associate Developer', link: 'https://www.credly.com/badges/fd3362bd-743a-4c4d-a68e-b1fdc5d46811/public_url' },
-  { issuer: 'GitHub', name: 'GitHub Foundations', link: 'https://drive.google.com/file/d/1o0fkCAMRWTg1oMwxlqu6t6wnOpBv66Vq/view?usp=sharing' },
-  { issuer: 'Pearson', name: 'IT Specialist – HTML and CSS', link: 'https://www.credly.com/badges/e4a55298-e396-41d8-a032-283aafe9fab7/public_url' },
-  { issuer: 'Oracle', name: 'Java Certified Foundations Associate', link: 'https://drive.google.com/file/d/1g-yyceHtLg_k2RWiOIJqH0MMcGlaH90P/view?usp=sharing' },
-  { issuer: 'Oracle', name: 'Oracle Certified Foundations Associate – Database', link: 'https://drive.google.com/file/d/10-DzabbcH2vHrI6bAohoT8czKRZMa2kV/view?usp=drive_link' },
-  { issuer: 'Cisco', name: 'HTML Essentials', link: 'https://www.credly.com/badges/eb27ca95-3b2a-4948-bef9-0385d1d49055/public_url' },
-  { issuer: 'Cisco', name: 'CSS Essentials', link: 'https://www.credly.com/badges/3b37497f-6a61-4889-af3c-ed337a460a0b/public_url' },
-  { issuer: 'Cisco', name: 'JavaScript Essentials 1', link: 'https://www.credly.com/badges/9cdd4d55-6ecc-463f-b254-811ccdd0539c/public_url' },
-  { issuer: 'Cisco', name: 'JavaScript Essentials 2', link: 'https://www.credly.com/badges/0e1b036e-4318-4c8e-b750-2aca77314442/public_url' },
-  { issuer: 'Cisco', name: 'Python Essentials 1', link: 'https://www.credly.com/badges/0e21e3eb-d8ef-4770-95d7-dcbd6f8696b1/public_url' },
-  { issuer: 'Udemy', name: 'Microsoft Azure Hands-On Training (AZ-900, AZ-104, AZ-305)', link: 'https://drive.google.com/file/d/1KrXClhY0nJ3Acxs7DioNf4Q1rpaMvgPT/view?usp=sharing' },
+  {
+    issuer: 'AWS Educate',
+    name: 'Introduction to Machine Learning',
+    link: '',
+  },
+  {
+    issuer: 'AWS Educate',
+    name: 'Introduction to Generative AI',
+    link: '',
+  },
 ];
 
 export type Skill = { name: string; mono: string; note?: string };
@@ -244,113 +294,150 @@ export type SkillCategory = { id: string; title: string; subtitle: string; skill
 export const skillCategories: SkillCategory[] = [
   {
     id: 'languages',
-    title: 'Languages',
-    subtitle: 'Java is the primary language',
+    title: 'Programming Languages',
+    subtitle: 'Core programming & development',
     skills: [
-      { name: 'Java', mono: 'Jv', note: 'Primary' },
-      { name: 'Python', mono: 'Py' },
+      { name: 'Python', mono: 'Py', note: 'Primary for AI/ML' },
+      { name: 'Java', mono: 'Jv' },
       { name: 'C', mono: 'C' },
-      { name: 'C++', mono: 'C+' },
+      { name: 'SQL', mono: 'Sq' },
+      { name: 'TypeScript', mono: 'Ts' },
+      { name: 'Swift', mono: 'Sw' },
+    ],
+  },
+  {
+    id: 'ai-ml',
+    title: 'AI & Machine Learning',
+    subtitle: 'Intelligent systems & predictive modeling',
+    skills: [
+      { name: 'Machine Learning', mono: 'ML' },
+      { name: 'Deep Learning', mono: 'DL' },
+      { name: 'TensorFlow / Keras', mono: 'Tf' },
+      { name: 'PyTorch', mono: 'Pt' },
+      { name: 'scikit-learn', mono: 'Sk' },
+      { name: 'Pandas', mono: 'Pd' },
+      { name: 'NumPy', mono: 'Np' },
+      { name: 'LSTM', mono: 'Ls' },
+    ],
+  },
+  {
+    id: 'generative-ai',
+    title: 'Generative AI',
+    subtitle: 'LLMs, retrieval & agentic systems',
+    skills: [
+      { name: 'Large Language Models', mono: 'LL' },
+      { name: 'RAG', mono: 'Rg' },
+      { name: 'Embeddings', mono: 'Em' },
+      { name: 'Semantic Search', mono: 'Ss' },
+      { name: 'Knowledge Graphs', mono: 'Kg' },
+      { name: 'Ollama', mono: 'Ol' },
     ],
   },
   {
     id: 'frontend',
-    title: 'Frontend',
-    subtitle: 'Interfaces & the web platform',
+    title: 'Frontend Development',
+    subtitle: 'Modern web interfaces',
     skills: [
+      { name: 'Next.js', mono: 'Nx' },
       { name: 'React', mono: 'Re' },
-      { name: 'HTML', mono: 'Ht' },
-      { name: 'CSS', mono: 'Cs' },
-      { name: 'JavaScript', mono: 'Js' },
-    ],
-  },
-  {
-    id: 'backend',
-    title: 'Backend',
-    subtitle: 'Server-side logic',
-    skills: [
-      { name: 'Node.js', mono: 'No' },
-      { name: 'Express.js', mono: 'Ex' },
-    ],
-  },
-  {
-    id: 'infra',
-    title: 'Infra & Tools',
-    subtitle: 'Shipping & architecture',
-    skills: [
-      { name: 'Docker', mono: 'Dk' },
-      { name: 'Docker Compose', mono: 'Dc' },
-      { name: 'REST APIs', mono: 'Ap' },
-      { name: 'Microservices', mono: 'Ms' },
-      { name: 'JWT Auth', mono: 'Jw' },
-      { name: 'Git / GitHub', mono: 'Gt' },
-      { name: 'Postman', mono: 'Pm' },
+      { name: 'TypeScript', mono: 'Ts' },
+      { name: 'Streamlit', mono: 'St' },
     ],
   },
   {
     id: 'databases',
-    title: 'Databases',
-    subtitle: 'Indexing • Normalization',
+    title: 'Databases & Data',
+    subtitle: 'Storage and data processing',
     skills: [
       { name: 'PostgreSQL', mono: 'Pg' },
-      { name: 'MongoDB', mono: 'Mg' },
       { name: 'MySQL', mono: 'My' },
+      { name: 'Supabase', mono: 'Sb' },
+      { name: 'Pandas', mono: 'Pd' },
+      { name: 'NumPy', mono: 'Np' },
     ],
   },
   {
-    id: 'fundamentals',
-    title: 'CS Fundamentals',
-    subtitle: 'The foundations',
+    id: 'optimization',
+    title: 'Algorithms & Optimization',
+    subtitle: 'Routing, search & metaheuristics',
     skills: [
       { name: 'DSA', mono: 'Ds' },
-      { name: 'OS', mono: 'Os' },
-      { name: 'CN', mono: 'Cn' },
-      { name: 'DBMS', mono: 'Db' },
-      { name: 'OOPs', mono: 'Oo' },
-      { name: 'Collections', mono: 'Co' },
-      { name: 'Multithreading', mono: 'Mt' },
+      { name: 'QPSO', mono: 'Qp' },
+      { name: 'Dijkstra', mono: 'Di' },
+      { name: 'A* Search', mono: 'A*' },
+      { name: 'Genetic Algorithm', mono: 'GA' },
+      { name: 'Ant Colony Optimization', mono: 'AC' },
+      { name: 'NetworkX', mono: 'Nx' },
+      { name: 'OSMnx', mono: 'Om' },
     ],
   },
   {
-    id: 'interests',
-    title: 'Interests',
-    subtitle: 'Coming soon to the series',
+    id: 'tools',
+    title: 'Developer Tools',
+    subtitle: 'Building, testing & collaboration',
     skills: [
-      { name: 'System Design', mono: 'Sd' },
-      { name: 'Cloud Computing (AWS)', mono: 'Aw' },
-      { name: 'Machine Learning', mono: 'Ml' },
+      { name: 'Git', mono: 'Gt' },
+      { name: 'GitHub', mono: 'Gh' },
+      { name: 'VS Code', mono: 'Vc' },
+      { name: 'Jupyter', mono: 'Jp' },
     ],
   },
 ];
-
 /**
  * Factual cross-references shown when a skill card is hovered/tapped:
  * where the skill appears in the projects, certifications or achievements on the resume.
  */
 export const skillEvidence: Record<string, string[]> = {
-  Java: ['Oracle Java Certified Foundations Associate', 'HackerRank 5-star'],
-  Python: ['PolicyGuard AI', 'Cisco Python Essentials 1', 'HackerRank 5-star'],
-  C: ['HackerRank 5-star'],
-  React: ['Payment Gateway System', 'Multi-Tenant SaaS Platform'],
-  HTML: ['Pearson IT Specialist – HTML and CSS', 'Cisco HTML Essentials'],
-  CSS: ['Pearson IT Specialist – HTML and CSS', 'Cisco CSS Essentials'],
-  JavaScript: ['Cisco JavaScript Essentials 1 & 2'],
-  'Node.js': ['Payment Gateway System', 'Multi-Tenant SaaS Platform'],
-  'Express.js': ['Payment Gateway System'],
-  Docker: ['Payment Gateway System'],
-  'Docker Compose': ['Multi-Tenant SaaS Platform'],
-  'REST APIs': ['PolicyGuard AI'],
-  Microservices: ['Payment Gateway System'],
-  'JWT Auth': ['Multi-Tenant SaaS Platform'],
-  'Git / GitHub': ['GitHub Foundations'],
-  PostgreSQL: ['Payment Gateway System', 'Multi-Tenant SaaS Platform'],
-  MongoDB: ['MongoDB Certified Associate Developer'],
-  DBMS: ['NPTEL Database Management System', 'Oracle Database Foundations'],
-  DSA: ['AlgoUniversity Tech Fellow', '850+ problems solved'],
-  'Cloud Computing (AWS)': ['AWS Certified AI Practitioner', 'AWS Academy Cloud Foundations'],
-  'Machine Learning': ['B.Tech AI & ML', 'NPTEL Deep Learning'],
+  Python: [
+    'Quantum-Inspired Traffic Optimization',
+    'AstraGrid AI',
+    'AWS Educate: Introduction to Machine Learning',
+  ],
+  Java: ['Programming language proficiency'],
+  C: ['Programming language proficiency'],
+  SQL: ['PostgreSQL', 'MySQL', 'Supabase'],
+  TypeScript: ['Zentro AI', 'Next.js and React development'],
+  Swift: ['Programming language proficiency'],
+  'Machine Learning': [
+    'AstraGrid AI',
+    'AWS Educate: Introduction to Machine Learning',
+  ],
+  'Deep Learning': ['AstraGrid AI', 'LSTM telemetry prediction'],
+  'TensorFlow / Keras': ['AstraGrid AI'],
+  PyTorch: ['Technical skill listed on resume'],
+  'scikit-learn': ['AstraGrid AI'],
+  Pandas: ['Data processing and analysis'],
+  NumPy: ['Quantum-Inspired Traffic Optimization'],
+  LSTM: ['AstraGrid AI'],
+  'Large Language Models': ['AstraGrid AI', 'Local Phi-3 Mini inference'],
+  RAG: ['AstraGrid AI', 'Retrieval-grounded runbook workflows'],
+  Embeddings: ['Technical skill listed on resume'],
+  'Semantic Search': ['Technical skill listed on resume'],
+  'Knowledge Graphs': ['Zentro AI', 'Company Brain knowledge graph'],
+  Ollama: ['AstraGrid AI', 'Local Phi-3 Mini inference'],
+  'Next.js': ['Zentro AI'],
+  React: ['Zentro AI'],
+  Streamlit: ['AstraGrid AI'],
+  PostgreSQL: ['Technical skill listed on resume'],
+  MySQL: ['Technical skill listed on resume'],
+  Supabase: ['Zentro AI'],
+  DSA: ['DSAI Club, NIT Agartala'],
+  QPSO: ['Quantum-Inspired Traffic Optimization', 'SIH 2026 College Internal Round Qualifier'],
+  Dijkstra: ['Quantum-Inspired Traffic Optimization'],
+  'A* Search': ['Quantum-Inspired Traffic Optimization'],
+  'Genetic Algorithm': ['Quantum-Inspired Traffic Optimization'],
+  'Ant Colony Optimization': ['Quantum-Inspired Traffic Optimization'],
+  NetworkX: ['Quantum-Inspired Traffic Optimization'],
+  OSMnx: ['Quantum-Inspired Traffic Optimization'],
+  Git: ['GitHub project repositories'],
+  GitHub: [
+    'Zentro AI',
+    'AstraGrid AI',
+    'Quantum-Inspired Traffic Optimization',
+  ],
+  'VS Code': ['Development tool listed on resume'],
+  Jupyter: ['Development tool listed on resume'],
 };
-
 export type Episode = {
   code: string;
   title: string;
@@ -377,48 +464,54 @@ const jade: Palette = { from: '#03150f', via: '#0d5a40', to: '#050a08', accent: 
 export const seasons: Season[] = [
   {
     number: 1,
-    title: 'The Beginning',
-    period: '2021 – 2023',
-    synopsis: 'Intermediate years at Sri Chaitanya Junior College, Kakinada — Mathematics, Physics and Chemistry.',
+    title: 'The Foundation',
+    period: '2025 – 2025',
+    synopsis:
+      'The beginning of the journey at National Institute of Technology, Agartala, pursuing Computer Science and Engineering.',
     episodes: [
       {
         code: 'S01 E01',
-        title: 'The Foundation',
-        description: 'BIEAP, MPC at Sri Chaitanya Junior College, Kakinada — finishing with a score of 925/1000.',
-        tags: ['MPC', 'BIEAP'],
-        runtime: 'Jun 2021 – May 2023',
+        title: 'The Beginning',
+        description:
+          'Started a Bachelor of Technology in Computer Science and Engineering at NIT Agartala.',
+        tags: ['B.Tech', 'Computer Science', 'NIT Agartala'],
+        runtime: '2025 – 2029',
         palette: amber,
       },
     ],
   },
   {
     number: 2,
-    title: 'Enter: AI & ML',
-    period: '2023 – Present',
-    synopsis: 'B.Tech in Artificial Intelligence and Machine Learning at Aditya Engineering College, Surampalem.',
+    title: 'The AI Explorer',
+    period: '2025 – Present',
+    synopsis:
+      'Building a strong foundation in programming, machine learning, deep learning and generative AI while maintaining a 9.28 CGPA.',
     episodes: [
       {
         code: 'S02 E01',
         title: 'The Engineer',
-        description: 'Bachelor of Technology in Artificial Intelligence and Machine Learning — CGPA 9.10.',
-        tags: ['B.Tech', 'AI & ML', 'CGPA 9.10'],
-        runtime: 'Oct 2023 – Present',
+        description:
+          'Pursuing Computer Science and Engineering at NIT Agartala with a CGPA of 9.28/10.',
+        tags: ['B.Tech', 'CSE', 'CGPA 9.28/10'],
+        runtime: '2025 – 2029',
         palette: violet,
       },
       {
         code: 'S02 E02',
-        title: 'The Topper',
-        description: 'AIML Branch Topper with a 9.24 SGPA for the semester.',
-        tags: ['9.24 SGPA', 'Branch Topper'],
-        runtime: 'One semester',
+        title: 'The AI Researcher',
+        description:
+          'Exploring machine learning, deep learning, LLMs, Retrieval-Augmented Generation and knowledge graphs.',
+        tags: ['AI/ML', 'LLMs', 'RAG', 'Knowledge Graphs'],
+        runtime: 'Ongoing',
         palette: crimson,
       },
       {
         code: 'S02 E03',
         title: 'The Problem Solver',
-        description: 'LeetCode 350+ (peak 1442), GFG 300+ (1436), CodeChef 200+ and HackerRank 5-star badges in C, Python, Java and SQL.',
-        tags: ['DSA', 'LeetCode', 'GFG', 'CodeChef', 'HackerRank'],
-        runtime: '850+ problems',
+        description:
+          'Applying algorithms and optimization techniques, including QPSO, Dijkstra, A* search, Genetic Algorithms and Ant Colony Optimization.',
+        tags: ['Algorithms', 'QPSO', 'Optimization'],
+        runtime: 'Ongoing',
         palette: jade,
       },
     ],
@@ -426,63 +519,71 @@ export const seasons: Season[] = [
   {
     number: 3,
     title: 'Learning to Build',
-    period: '2025 – 2026',
-    synopsis: 'One year of intensive Full-Stack Development training as a Trainee at Technical Hub Pvt Ltd.',
+    period: '2026',
+    synopsis:
+      'Turning technical knowledge into practical AI applications, predictive systems and full-stack products.',
     episodes: [
       {
         code: 'S03 E01',
-        title: 'The Trainee',
-        description: 'Intensive Full-Stack Development training covering frontend, backend, database integration and deployment workflows.',
-        tags: ['FSD', 'Frontend', 'Backend', 'Databases'],
-        runtime: 'May 2025 – Jun 2026',
+        title: 'The Optimization Engineer',
+        description:
+          'Developed Quantum-Inspired Traffic Optimization for Smart India Hackathon 2026, working with urban road graphs containing 600+ nodes and multi-vehicle routing scenarios.',
+        tags: ['Python', 'QPSO', 'NetworkX', 'OSMnx'],
+        runtime: '2026',
         palette: ocean,
       },
       {
         code: 'S03 E02',
-        title: 'The Developer',
-        description: 'Developed responsive web applications — user interfaces, server-side logic and database connectivity.',
-        tags: ['React', 'Node.js', 'Express.js'],
-        runtime: 'Technical Hub',
+        title: 'The AI Architect',
+        description:
+          'Built Zentro AI, a multi-agent Business Operating System featuring five specialized agents powered by a Company Brain knowledge graph.',
+        tags: ['Next.js', 'React', 'TypeScript', 'Supabase'],
+        runtime: '2026',
         palette: violet,
       },
       {
         code: 'S03 E03',
-        title: 'The Deployer',
-        description: 'Deployed and managed web applications with version control, debugging and end-to-end development practices.',
-        tags: ['Git / GitHub', 'Deployment'],
-        runtime: 'Technical Hub',
+        title: 'The Predictive AI Builder',
+        description:
+          'Built AstraGrid AI, an offline predictive copilot using local LLM inference, RAG workflows and LSTM-based telemetry failure prediction.',
+        tags: ['TensorFlow/Keras', 'LSTM', 'Ollama', 'RAG'],
+        runtime: '2026',
         palette: jade,
       },
     ],
   },
   {
     number: 4,
-    title: 'Building Real Products',
-    period: '2026',
-    synopsis: 'Three Originals — an AI platform, a payment gateway and a multi-tenant SaaS — plus national-level recognition.',
+    title: 'Leadership & Impact',
+    period: '2026 – Present',
+    synopsis:
+      'Growing through technical communities, women-in-tech initiatives, student engagement and real-world operations.',
     episodes: [
       {
         code: 'S04 E01',
-        title: 'The AI Builder',
-        description: 'PolicyGuard AI — LLM-based Q&A and key-information extraction across 500+ policy documents at 92% accuracy.',
-        tags: ['Python', 'NLP', 'LLM'],
-        runtime: '2026',
+        title: 'The Ambassador',
+        description:
+          'As a Google Student Ambassador, reached 200+ participants through AI, technical-skills and Gemini campaigns and sessions.',
+        tags: ['Google', 'Community', 'AI Awareness'],
+        runtime: 'May 2026 – Present',
         palette: crimson,
       },
       {
         code: 'S04 E02',
-        title: 'The Architect',
-        description: 'Payment Gateway System and Multi-Tenant SaaS Platform — state machines, microservices, tenant isolation and RBAC.',
-        tags: ['Node.js', 'PostgreSQL', 'Docker'],
-        runtime: '2026',
+        title: 'The Operations Specialist',
+        description:
+          'Working remotely with Levitate Labs on CRM, automation, databases, API/backend workflows and sales support.',
+        tags: ['Technical Operations', 'Automation', 'Databases'],
+        runtime: 'May 2026 – Present',
         palette: amber,
       },
       {
         code: 'S04 E03',
-        title: 'The Fellow',
-        description: 'Selected as a Tech Fellow at AlgoUniversity and reached the Semi-Finals of Flipkart GRiD 7.0.',
-        tags: ['AlgoUniversity', 'Flipkart GRiD 7.0'],
-        runtime: 'National stage',
+        title: 'The Community Mentor',
+        description:
+          'Contributing to Nari Udaan’s technical-skills and digital-learning initiatives and serving as a core member of the DSAI Club at NIT Agartala.',
+        tags: ['Nari Udaan', 'DSAI Club', 'Women in Tech'],
+        runtime: '2026 – Present',
         palette: ocean,
       },
     ],
@@ -491,14 +592,16 @@ export const seasons: Season[] = [
     number: 5,
     title: "What's Next",
     period: 'Now streaming',
-    synopsis: 'The interests on the resume point to the next arc of the story.',
+    synopsis:
+      'Preparing for the next chapter through deeper AI/ML expertise, open-source contributions and impactful engineering projects.',
     episodes: [
       {
         code: 'S05 E01',
         title: 'The Next Chapter',
-        description: 'Exploring System Design, Cloud Computing (AWS) and Machine Learning.',
-        tags: ['System Design', 'AWS', 'Machine Learning'],
-        runtime: 'In production',
+        description:
+          'Continuing to explore advanced AI/ML, generative AI, optimization algorithms and opportunities to build impactful technology.',
+        tags: ['AI/ML', 'Generative AI', 'Research', 'Open Source'],
+        runtime: 'In progress',
         palette: violet,
       },
     ],
@@ -508,16 +611,66 @@ export const seasons: Season[] = [
 export type TopPick = { label: string; title: string; detail: string; palette: Palette };
 
 export const topPicks: TopPick[] = [
-  { label: 'Primary language', title: 'Java', detail: 'Listed as primary on the resume • Oracle certified', palette: amber },
-  { label: 'The AI Original', title: 'PolicyGuard AI', detail: '500+ documents • 92% accuracy', palette: crimson },
-  { label: 'Biggest stage', title: 'Flipkart GRiD 7.0', detail: 'Semi-Finalist', palette: ocean },
-  { label: 'National selection', title: 'AlgoUniversity', detail: 'Tech Fellow', palette: violet },
-  { label: 'Academic high', title: 'Branch Topper', detail: '9.24 SGPA in AI & ML', palette: jade },
-  { label: 'Cloud credential', title: 'AWS AI Practitioner', detail: 'AWS Certified', palette: amber },
-  { label: 'Problems solved', title: '850+', detail: 'LeetCode 350+ • GFG 300+ • CodeChef 200+', palette: crimson },
-  { label: 'The training arc', title: '1 Year of FSD', detail: 'Technical Hub Pvt Ltd', palette: ocean },
-  { label: 'Database credential', title: 'MongoDB', detail: 'Certified Associate Developer', palette: jade },
-  { label: 'Current focus', title: 'System Design', detail: 'with Cloud (AWS) & Machine Learning', palette: violet },
+  {
+    label: 'Primary AI/ML language',
+    title: 'Python',
+    detail: 'Machine learning • Deep learning • Optimization',
+    palette: amber,
+  },
+  {
+    label: 'Featured project',
+    title: 'AstraGrid AI',
+    detail: '85.93% accuracy • 0.97 failure recall',
+    palette: crimson,
+  },
+  {
+    label: 'National hackathon',
+    title: 'Smart India Hackathon 2026',
+    detail: 'College Internal Round Qualifier',
+    palette: ocean,
+  },
+  {
+    label: 'Multi-agent AI',
+    title: 'Zentro AI',
+    detail: 'Five specialized agents • Company Brain knowledge graph',
+    palette: violet,
+  },
+  {
+    label: 'Academic high',
+    title: 'CGPA 9.28/10',
+    detail: 'B.Tech CSE • NIT Agartala',
+    palette: jade,
+  },
+  {
+    label: 'AI credential',
+    title: 'AWS Educate',
+    detail: 'Introduction to Machine Learning',
+    palette: amber,
+  },
+  {
+    label: 'Optimization project',
+    title: 'Quantum-Inspired Traffic Optimization',
+    detail: '600+ road graph nodes • QPSO routing',
+    palette: crimson,
+  },
+  {
+    label: 'Student leadership',
+    title: 'Google Student Ambassador',
+    detail: 'Reached 200+ participants through campaigns and sessions',
+    palette: ocean,
+  },
+  {
+    label: 'Women in tech',
+    title: 'Nari Udaan',
+    detail: 'Technical skills and digital learning initiatives',
+    palette: jade,
+  },
+  {
+    label: 'Current focus',
+    title: 'Generative AI',
+    detail: 'LLMs • RAG • Knowledge Graphs • AI Agents',
+    palette: violet,
+  },
 ];
 
 /** Slides for the "▶ Play Intro" cinematic sequence. */
@@ -526,45 +679,77 @@ export type IntroSlide = { kicker: string; title: string; lines: string[]; chips
 export const introSlides: IntroSlide[] = [
   {
     kicker: 'Education',
-    title: 'B.Tech · AI & ML',
-    lines: ['Aditya Engineering College, Surampalem', 'October 2023 – Present'],
-    chips: ['CGPA 9.10'],
+    title: 'B.Tech · Computer Science',
+    lines: [
+      'National Institute of Technology, Agartala',
+      '2025 – 2029',
+    ],
+    chips: ['CGPA 9.28/10'],
   },
   {
     kicker: 'Skills',
-    title: 'Java first.',
-    lines: ['Python, C, C++ · React, Node.js, Express.js', 'PostgreSQL, MongoDB, MySQL · Docker, REST, JWT'],
-    chips: ['Java', 'Python', 'React', 'Node.js', 'Docker', 'PostgreSQL'],
+    title: 'AI first.',
+    lines: [
+      'Python, Java, C, SQL, TypeScript, Swift',
+      'TensorFlow, PyTorch · Next.js, React · PostgreSQL, MySQL, Supabase',
+    ],
+    chips: ['Python', 'AI/ML', 'LLMs', 'RAG', 'React', 'TypeScript'],
   },
   {
-    kicker: 'Training',
-    title: 'The Training Arc',
-    lines: ['One year of intensive Full‑Stack Development training', 'Trainee · Technical Hub Pvt Ltd · May 2025 – June 2026', 'Frontend · Backend · Databases · Deployment'],
+    kicker: 'Experience',
+    title: 'Building & Leading',
+    lines: [
+      'Google Student Ambassador · May 2026 – Present',
+      'Technical Operations Assistant · Levitate Labs',
+      'AI awareness · Automation · Technical operations',
+    ],
   },
   {
     kicker: 'Projects',
-    title: 'Three Originals',
-    lines: ['PolicyGuard AI — 500+ documents, 92% accuracy', 'Payment Gateway — 1,000+ transactions, 99.8% uptime', 'Multi-Tenant SaaS — 50+ tenants, zero unauthorized access'],
+    title: 'Three AI Originals',
+    lines: [
+      'AstraGrid AI — 85.93% accuracy, 0.97 failure recall',
+      'Zentro AI — Five specialized agents powered by a knowledge graph',
+      'Quantum-Inspired Traffic Optimization — 600+ road graph nodes',
+    ],
   },
   {
     kicker: 'Achievements',
-    title: 'Top Moments',
-    lines: ['Tech Fellow — AlgoUniversity', 'Semi-Finalist — Flipkart GRiD 7.0', 'AIML Branch Topper — 9.24 SGPA'],
+    title: 'Making an Impact',
+    lines: [
+      'College Internal Round Qualifier — Smart India Hackathon 2026',
+      'Core Member — DSAI Club, NIT Agartala',
+      'Best Delegate — KACE-IX MUN · Verbal Mention — NITA-MUN',
+    ],
   },
   {
     kicker: 'Certified',
-    title: '16 Certifications',
-    lines: ['AWS · MongoDB · Oracle · GitHub · Pearson', 'NPTEL · Cisco · Udemy'],
+    title: 'AI Learning Path',
+    lines: [
+      'AWS Educate — Introduction to Machine Learning',
+      'AWS Educate — Introduction to Generative AI',
+    ],
   },
   {
     kicker: 'Current mission',
-    title: 'Now exploring',
-    lines: ['System Design · Cloud Computing (AWS) · Machine Learning'],
+    title: 'Building what matters',
+    lines: [
+      'Generative AI · Machine Learning · Multi-Agent Systems',
+      'Open Source · Research · Impactful Engineering',
+    ],
   },
 ];
 
-export type ProfileId = 'sushmita' | 'recruiter' | 'developer' | 'creative';
-export type SectionId = 'about' | 'journey' | 'originals' | 'picks' | 'skills' | 'moments' | 'story';
+export type ProfileId = 'gurleen' | 'recruiter' | 'developer' | 'creative';
+
+export type SectionId =
+  | 'about'
+  | 'journey'
+  | 'originals'
+  | 'picks'
+  | 'skills'
+  | 'moments'
+  | 'story';
 
 export const viewerProfiles: {
   id: ProfileId;
@@ -574,8 +759,8 @@ export const viewerProfiles: {
   order: SectionId[];
 }[] = [
   {
-    id: 'sushmita',
-    name: 'Sushmita',
+    id: 'gurleen',
+    name: 'Gurleen',
     blurb: 'The full series, in order',
     color: '#e5132b',
     order: ['about', 'journey', 'originals', 'picks', 'skills', 'moments', 'story'],

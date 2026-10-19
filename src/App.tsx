@@ -48,14 +48,15 @@ export default function App() {
 function Series() {
   const stored = readStoredProfile();
   const [stage, setStage] = useState<Stage>(stored ? 'home' : 'opening');
-  const [profileId, setProfileId] = useState<ProfileId>(stored ?? 'sushmita');
+  const [profileId, setProfileId] = useState<ProfileId>(stored ?? 'gurleen');
   const [playing, setPlaying] = useState(false);
   const [project, setProject] = useState<Project | null>(null);
   const [resumeOpen, setResumeOpen] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
   const { scrollTo, lock, unlock } = useSmoothScroll();
 
-  const order = viewerProfiles.find((p) => p.id === profileId)!.order;
+const activeProfile = viewerProfiles.find((p) => p.id === profileId) ?? viewerProfiles[0];
+const order = activeProfile?.order ?? [];
 
   useEffect(() => {
     if (stage === 'home') return;
